@@ -1,16 +1,18 @@
-import { Link } from "react-router-dom";
+ import { Link } from "react-router-dom";
 
 
 const InstructorView = (props) => {
   const {instructor, editCourse, allCourses} = props;
   let assignedCourses = allCourses.filter(course => course.instructorId===instructor.id);
   let availableCourses = allCourses.filter(course => course.instructorId!==instructor.id);
+  
+  let profimage=instructor.imageUrl;
 
   return (
     <div>      
-      <h1>{instructor.firstname}</h1>
-      <img src={instructor.imageUrl}></img>
-      <h3>{instructor.department}</h3>
+      <h1>{instructor.firstname} {instructor.lastname}</h1>
+      <img src={profimage}></img>
+      <h3>Department: {instructor.department}</h3>
       <div style={{display: "flex", flexDirection: "row", justifyContent: "space-evenly"}}>
         <div>Assigned courses:
         {assignedCourses.map( course => {

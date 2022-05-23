@@ -16,6 +16,7 @@ const AllInstructorsView = (props) => {
             <h1>{name}</h1>
           </Link>
           <p>{instructor.department}</p>
+          
         </div>
         );
 
