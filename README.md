@@ -1,39 +1,6 @@
 # final-frontend
 Members: David Cai
 Assignment
-Complete the following user stories:
-As a user I:
-[X] will land on a visually pleasing homepage by default, which allows navigation to view all courses and all instructors
-can navigate to all instructors view, and
-[X] see a list of all instructors in the database
-[X] see an informative message if no instructors exist
-[X] add a new instructor
-[   ] with a validated form displaying real-time error messages
-
-can navigate to a single instructor view, and
-[X] see details about a single instructor, including courses they teach (if any) 
-[   ] see an informative message if no courses belong to that instructor
-[   ] can navigate to single course view (see below)
-[   ] delete the instructor 
-[   ] edit instructor information (including adding/removing courses)
-[   ] with a validated form displaying real-time error messages
-
-can navigate to all courses view, and
-[   ] see a list of all courses in the database
-[   ] see an informative message if no courses exist
-[   ] add a new course
-[   ] with a validated form displaying real-time error messages
-
-can navigate to a single course view, and
-[   ] see details about a single course, including the instructor
-[   ] should display “Staff” if the course is not assigned an instructor
-[   ] navigate to single instructor view of the course’s instructor
-[   ] delete the course
-[   ] edit the course’s information (including instructor)
-[   ] with a validated form displaying real-time error messages
-
-
-
 
 Technical breakdown of requirements:
 
