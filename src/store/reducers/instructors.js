@@ -7,6 +7,8 @@ const allInstructors = (state = [], action) => {
       return action.payload;
     default:
       return state;
+    case at.DELETE_INSTRUCTOR:
+      return state.filter(instructor => instructor.id!==action.payload);
   }
 };
 

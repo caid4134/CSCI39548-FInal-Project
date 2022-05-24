@@ -20,7 +20,7 @@ const AllInstructorsView = (props) => {
           </Link>
 
           <p>Department: {instructor.department}</p>
-          <button onClick={() => deleteInstructor(instructor.id)}>X</button>
+          <button>Delete</button>
           
         </div>
         

@@ -33,7 +33,7 @@ const mapState = (state) => {
 const mapDispatch = (dispatch) => {
   return {
     fetchAllInstructors: () => dispatch(fetchAllInstructorsThunk()),
-    deleteInstructorThunk:(id) => dispatch(deleteInstructorThunk(id)),
+    deleteInstructor:(id) => dispatch(deleteInstructorThunk(id)),
   };
 };
 
